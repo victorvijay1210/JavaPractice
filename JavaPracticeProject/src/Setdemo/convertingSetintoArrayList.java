@@ -18,6 +18,7 @@ public class convertingSetintoArrayList {
 		values.add("rahul");
 		values.add("joyce");
 		values.add("aravind");
+		values.add("aravind");
 		
 		System.out.println(values);
 		List<String>ls = new ArrayList<>(values);

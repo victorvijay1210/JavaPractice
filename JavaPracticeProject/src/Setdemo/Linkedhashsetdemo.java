@@ -16,7 +16,7 @@ public class Linkedhashsetdemo {
 		values.add("rahul");
 		values.add("joyce");
 		values.add("aravind");
-		
+		values.add("aravind");
 		
 		
 		for (Object obj:values) {
