@@ -11,7 +11,6 @@ public class demo {
 	int c = a+b;
 	
 	System.out.println(c);
-	
 	}
 
 	public void stringcompare() {
@@ -28,6 +27,8 @@ public class demo {
 		else {
 			System.out.println("Test case failed");
 		}
+		
+		
 	}
 	
 	
@@ -37,7 +38,7 @@ public class demo {
 		
 		dm.cal();
 		dm.stringcompare();
-		
+	   
 	}
 	
 	

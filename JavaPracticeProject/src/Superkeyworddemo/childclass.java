@@ -8,8 +8,8 @@ public class childclass extends baseclass  {
 	
 	public void bankinterst() {
 		
-		System.out.println("The interst needs to pay on every month" + int_rate);
-		//System.out.println("The interst needs to pay on every month" + super.int_rate );
+		System.out.println("The interst needs to pay on every month" +" "+ int_rate);
+		System.out.println("The interst needs to pay on every month" + " " +super.int_rate );
 	
 	super.loan();
 	}

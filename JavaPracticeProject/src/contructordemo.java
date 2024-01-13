@@ -1,7 +1,7 @@
 
 public class contructordemo {
 
-	int marks;
+	static int marks;
 	
 	
 	
@@ -11,7 +11,7 @@ public class contructordemo {
 		marks=rank;
 	}
 	
-	public void demonew()
+	public static void demonew()
 	{
 		System.out.println("the demonew value is"+marks);
 	}
@@ -20,7 +20,7 @@ public class contructordemo {
 
 	public static void main(String[] args) {
 		contructordemo con = new contructordemo(100);
-        con.demonew();
+        demonew();
 	}
 
 }
