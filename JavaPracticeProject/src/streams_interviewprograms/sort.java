@@ -14,10 +14,10 @@ public class sort {
 	//sort	
 	List<Integer>sort=list.stream().sorted().collect(Collectors.toList());
     System.out.println(sort);
-
+    
     //reverse sort
     List<Integer>revsort=list.stream().sorted(Collections.reverseOrder()).collect(Collectors.toList());
-    		 System.out.println(revsort);
+    		 System.out.println(list);
 	}
 
 }
