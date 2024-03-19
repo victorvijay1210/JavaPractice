@@ -12,5 +12,5 @@ Polymorphism can be achived in two ways
 
 Methodoverloading-->Methodoverloading have same method name but diffrent types of aruguments/parameter will pass inside
 Methodoveriding--->This type have two classes one is parent class and other one is child class here we use inheritance keyword to extend the class properties (both parent and child class have same methodname/arugument types)
-                ---->This same method name and same arugument/parameter
+                ---->This uses same method name and same arugument/parameter
  
