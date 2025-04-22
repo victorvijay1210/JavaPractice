@@ -8,8 +8,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-	/*
-	 * 	List<Person> people = new ArrayList<>();
+	
+	 	List<Person> people = new ArrayList<>();
 		people.add(new Person("dudu", 28));
         people.add(new Person("bubu", 26));
         people.add(new Person("manish", 14));
@@ -21,7 +21,7 @@ public class Main {
         }
         
 	 
-	 */
+	 
 	
         
     	List<Books> book = new ArrayList<Books>();
