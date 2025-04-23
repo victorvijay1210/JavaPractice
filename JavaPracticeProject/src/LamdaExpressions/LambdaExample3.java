@@ -1,6 +1,7 @@
 package LamdaExpressions;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -16,10 +17,14 @@ public class LambdaExample3 {
 
 		System.out.println(nameList);
 		
-		//Sorted list
+		//Sorted list ascending 
 	 List<String> sortedList=names.stream().sorted().collect(Collectors.toList());
 	 
 	 System.out.println(sortedList);
+	 
+	 //reverse sorted descending
+	 List<String> sortedLists=names.stream().sorted(Collections.reverseOrder()).collect(Collectors.toList());
+	 System.out.println(sortedLists);
 	}
 
 }
