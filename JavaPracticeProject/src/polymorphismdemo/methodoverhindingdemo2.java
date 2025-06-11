@@ -1,5 +1,6 @@
 package polymorphismdemo;
 
+//Run-Time Polymorphism
 public class methodoverhindingdemo2 extends methodoverhindingdemo1 {
 	
   public void adding(int b) {
